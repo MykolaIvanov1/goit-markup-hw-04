@@ -1,7 +1,0 @@
-{
-  "svg.preview.background": "transparent",
-  "files.autoSave": "onFocusChange",
-  "editor.autoClosingBrackets": "always",
-  "prettier.bracketSameLine": true,
-  "editor.formatOnSave": true
-}
