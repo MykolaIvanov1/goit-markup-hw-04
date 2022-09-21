@@ -131,14 +131,24 @@ img {
   width: 20px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--accent-color);
+}
+
+.mail-icon-use:hover,
+.mail-icon-use:focus {
+  background-color: var(--accent-color);
+}
+
+.phone-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 /* Hero section*/
 .hero {
   max-width: 1600px;
   background-color: #2f303a;
-  background-image: linear-gradient(to right rgba (47, 48, 58, 0.4)), url(../imeges/back.jpg);
+  background-image: url(../imeges/back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -207,6 +217,21 @@ img {
   display: inline-flex;
 }
 
+.icons-priority {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color-section);
+  border-radius: 4px;
+}
+
+.icon-priority {
+  width: 70px;
+  height: 70px;
+}
+
 .item-priority {
   min-width: 270px;
   margin-right: 30px;
@@ -252,7 +277,8 @@ img {
 }
 
 .title-work,
-.title-team {
+.title-team,
+.title-company {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -304,11 +330,92 @@ img {
   margin-top: 10px;
 }
 
+.networks {
+  width: 230px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 16px;
+}
+
+.item-networks {
+  width: 44px;
+  height: 44px;
+}
+
+.link-network:hover,
+.link-network:focus {
+  background-color: var(--accent-color);
+  border-radius: 25px;
+}
+
+.link-network {
+  width: 44px;
+  height: 44px;
+}
+
+.network-icon,
+.network-icon-footer {
+  width: 20px;
+  height: 20px;
+}
+
+.network-icon {
+  fill: #afb1b8;
+}
+
+.network-icon:hover,
+.network-icon:focus {
+  fill: #ffffff;
+}
+
+/* Company */
+
+.title-company {
+  margin-bottom: 50px;
+}
+
+.company-lists {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-company {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.link-company:hover,
+.link-company:focus {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.icon-company {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.icon-company:hover,
+.icon-company:focus {
+  fill: var(--accent-color);
+}
+
 /* footer */
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
 }
 
 .footer .logo.link {
@@ -348,6 +455,20 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.text-join {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-text-hero);
+}
+
+.list-footer-network {
+  display: inline-flex;
+  width: 230px;
+  justify-content: space-evenly;
 }
 
 /* Page portfolio */
