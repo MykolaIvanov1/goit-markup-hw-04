@@ -40,11 +40,18 @@
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener nofollow noreferrer"
-              >info@devstudio.com</a
             >
+              <svg class="mail-icon">
+                <use class="mail-icon-use" href="./imeges/icons.svg#icon-envelope"></use></svg
+              >info@devstudio.com
+            </a>
           </li>
           <li class="item-contact">
-            <a class="phone link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="phone link" href="tel:+380961111111">
+              <svg class="phone-icon">
+                <use href="./imeges/icons.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -63,7 +70,7 @@
           </ul>
           <ul class="lists list-image">
             <li class="item-image">
-              <a class="link" href=""
+              <a class="link link-portfolio" href=""
                 ><img
                   src="./imeges/portfolio/technocrat.jpg"
                   alt="ноутбук із зображенням веб сторінки"
@@ -77,7 +84,7 @@
               </a>
             </li>
             <li class="item-image">
-              <a class="link" href=""
+              <a class="link link-portfolio" href=""
                 ><img
                   src="./imeges/portfolio/new-orlean.jpg"
                   alt="два баскетболісти борються за м'яч"
@@ -91,7 +98,7 @@
               </a>
             </li>
             <li class="item-image">
-              <a class="link" href=""
+              <a class="link link-portfolio" href=""
                 ><img
                   src="./imeges/portfolio/seafood.jpg"
                   alt="логотип ресторану Seafood"
@@ -105,7 +112,7 @@
               </a>
             </li>
             <li class="item-image">
-              <a class="link" href=""
+              <a class="link link-portfolio" href=""
                 ><img src="./imeges/portfolio/prime.jpg" alt="навушники" width="370" height="294" />
                 <div class="title-text">
                   <h2 class="title-portfolio">Проєкт Prime</h2>
@@ -114,7 +121,7 @@
               </a>
             </li>
             <li class="item-image">
-              <a class="link" href=""
+              <a class="link link-portfolio" href=""
                 ><img
                   src="./imeges/portfolio/boxes.jpg"
                   alt="дві коробки"
@@ -128,7 +135,7 @@
               </a>
             </li>
             <li class="item-image">
-              <a class="link" href=""
+              <a class="link link-portfolio" href=""
                 ><img
                   src="./imeges/portfolio/inspiration-has-no-borders.jpg"
                   alt="монітор"
@@ -142,7 +149,7 @@
               </a>
             </li>
             <li class="item-image">
-              <a class="link" href=""
+              <a class="link link-portfolio" href=""
                 ><img
                   src="./imeges/portfolio/limited-edition.jpg"
                   alt="відкритий журнал"
@@ -156,7 +163,7 @@
               </a>
             </li>
             <li class="item-image">
-              <a class="link" href=""
+              <a class="link link-portfolio" href=""
                 ><img
                   src="./imeges/portfolio/project-lab.jpg"
                   alt="ярлик з текстом"
@@ -170,7 +177,7 @@
               </a>
             </li>
             <li class="item-image">
-              <a class="link" href=""
+              <a class="link link-portfolio" href=""
                 ><img
                   src="./imeges/portfolio/growing-business.jpg"
                   alt="відкритий ноутбук за яким працює людина"
@@ -189,31 +196,66 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="container">
-        <a class="logo link" href="" lang="en"><span class="logo-web">Web</span>Studio</a>
-        <address class="address">
-          <a
-            class="link location"
-            href="https://goo.gl/maps/bbRMfLM2c8ig8F1x9"
-            target="_blank"
-            rel="noopener nofollow noreferrer"
-            >м. Київ, пр-т Лесі Українки, 26</a
-          >
-          <ul class="list-footer lists">
-            <li class="item-mail-footer">
-              <a
-                class="link mail-footer"
-                href="mailto:info@devstudio.com"
-                target="_blank"
-                rel="noopener nofollow noreferrer"
-                >info@devstudio.com</a
-              >
+      <div class="container footer-container">
+        <div>
+          <a class="logo link" href="" lang="en"> <span class="logo-web">Web</span>Studio </a>
+          <address class="address">
+            <a
+              class="link location"
+              href="https://goo.gl/maps/bbRMfLM2c8ig8F1x9"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+              >м. Київ, пр-т Лесі Українки, 26
+            </a>
+            <ul class="list-footer lists">
+              <li class="item-mail-footer">
+                <a
+                  class="link mail-footer"
+                  href="mailto:info@devstudio.com"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  >info@devstudio.com
+                </a>
+              </li>
+              <li>
+                <a class="link phone-footer" href="tel:+380961111111">+38 096 111 11 11 </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-network">
+          <p class="text-join">приєднуйтесь</p>
+          <ul class="lists list-footer-network">
+            <li class="items-icon-footer">
+              <a class="link-icon-footer link-network" href="">
+                <svg class="network-icon-footer">
+                  <use href="./imeges/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="link phone-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="items-icon-footer">
+              <a class="link-icon-footer link-network" href="">
+                <svg class="network-icon-footer">
+                  <use href="./imeges/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="items-icon-footer">
+              <a class="link-icon-footer link-network" href="">
+                <svg class="network-icon-footer">
+                  <use href="./imeges/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="items-icon-footer">
+              <a class="link-icon-footer link-network" href="">
+                <svg class="network-icon-footer">
+                  <use href="./imeges/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
