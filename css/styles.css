@@ -133,28 +133,22 @@ img {
   width: 20px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--secondary-text-color);
-}
-
-.mail-icon:hover,
-.mail-icon:focus,
-.phone-icon:hover,
-.phone-icon:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 .phone-icon {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--secondary-text-color);
+  fill: currentColor;
 }
 
 /* Hero section*/
 .hero {
   max-width: 1600px;
   background-color: #2f303a;
-  background-image: url(../imeges/back.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../imeges/back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -359,27 +353,25 @@ img {
 
 .link-network:hover,
 .link-network:focus {
+  color: var(--color-text-hero);
   background-color: var(--accent-color);
   border-radius: 25px;
 }
 
 .link-network {
+  color: #afb1b8;
   width: 44px;
   height: 44px;
 }
 
 .network-icon,
 .network-icon-footer {
+  height: 20px;
   width: 20px;
 }
 
 .network-icon {
-  fill: #afb1b8;
-}
-
-.network-icon:hover,
-.network-icon:focus {
-  fill: var(--color-text-hero);
+  fill: currentColor;
 }
 
 /* Company */
@@ -394,6 +386,7 @@ img {
 }
 
 .link-company {
+  color: #afb1b8;
   width: 170px;
   height: 92px;
   display: flex;
@@ -405,19 +398,14 @@ img {
 
 .link-company:hover,
 .link-company:focus {
-  fill: var(--accent-color);
+  color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
 .icon-company {
   width: 106px;
   height: 60px;
-  fill: #afb1b8;
-}
-
-.icon-company:hover,
-.icon-company:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /* footer */
