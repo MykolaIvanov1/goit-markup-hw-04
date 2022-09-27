@@ -152,6 +152,8 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -220,6 +222,7 @@ img {
 .icons-priority {
   width: 270px;
   height: 120px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -382,7 +385,14 @@ img {
 
 .company-lists {
   display: flex;
-  justify-content: space-evenly;
+}
+
+.item-company {
+  margin-right: 30px;
+}
+
+.item-company:last-child {
+  margin-right: 0;
 }
 
 .link-company {
@@ -465,6 +475,7 @@ img {
 }
 
 .text-join {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
